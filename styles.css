@@ -1,0 +1,115 @@
+.navbar {
+  background-color: rgb(0, 0, 0);
+  padding: 40px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.nav-right {
+  float: right;
+  margin-left: 10px; /* Adjust this value as needed */
+}
+
+.nav-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.register-container {
+  margin: 0 auto; /* Centers the form horizontally */
+  width: 300px; /* Adjust width as needed */
+  padding: 20px; /* Adds padding inside the container */
+}
+
+.register-form {
+  display: flex; /* Makes the form elements stack vertically */
+  flex-direction: column; /* Ensures elements stack top to bottom*/
+  gap: 10px; /* Adds spacing between form elements */
+}
+
+.register-form input{
+  width: 100%; /* Makes inputs and button full width */
+  padding: 10px; /* Adds padding to inputs and button */;
+}
+
+
+.register-form button {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.login-container {
+  margin: 0 auto; /* Centers the form horizontally */
+  width: 300px; /* Adjust width as needed */
+  padding: 20px; /* Adds padding inside the container */
+}
+
+.login-form {
+  display: flex; /* Makes the form elements stack vertically */
+  flex-direction: column; /* Ensures elements stack top to bottom*/
+  gap: 10px; /* Adds spacing between form elements */
+}
+
+.login-form input{
+  width: 100%; /* Makes inputs and button full width */
+  padding: 10px; /* Adds padding to inputs and button */;
+}
+
+.login-form button {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards li {
+  flex: 1 0 5%; /* Adjust the width of each card */
+  margin: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cards li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cards li img {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: 63px;
+}
+
+.cards li div {
+  padding: 10px;
+}
+
+.cards li div div {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
